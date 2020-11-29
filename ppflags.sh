@@ -3,7 +3,7 @@
 deps=""
 
 # if command exists
-for dep in zsh git bash zsh aws bat kubectl dnf yum brew apt pacman nvim starship;
+for dep in zsh git bash zsh aws bat kubectl dnf yum brew apt pacman nvim starship dircolors;
 do
     command -v "$dep" > /dev/null 2>&1 && deps="$deps $dep"
 done
