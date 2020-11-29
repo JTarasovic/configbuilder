@@ -31,6 +31,8 @@ compinit
 !include (aliases.pp)
 !include (functions.pp)
 
+!rawinclude (zsh-prompt-benchmark.zsh)
+
 !ifdef (starship) (eval $(starship init zsh)) (# starship init omitted)
 
 !ifdef (zsh_syntax_highlighting)(
