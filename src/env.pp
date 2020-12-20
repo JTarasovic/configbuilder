@@ -44,6 +44,7 @@ pathmunge "$HOME/mongo/current/bin"
 pathmunge "$HOME/Library/Python/3.7/bin"
 pathmunge "${KREW_ROOT:-$HOME/.krew}/bin"
 pathmunge "$HOME/.cargo/bin"
+pathmunge "$HOME/go/bin"
 
 echo "export PATH=$PATH"
 ```
