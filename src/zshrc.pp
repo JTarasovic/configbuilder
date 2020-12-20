@@ -33,7 +33,7 @@ compinit
 
 !rawinclude (zsh-prompt-benchmark.zsh)
 
-!ifdef (starship) (eval $(starship init zsh)) (# starship init omitted)
+!ifdef (starship) (!sh (starship init zsh)) (# starship init omitted)
 
 !ifdef (zsh_syntax_highlighting)(
 source !zsh_syntax_highlighting

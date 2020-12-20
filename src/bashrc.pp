@@ -28,6 +28,6 @@ unset MAILCHECK
 !include (aliases.pp)
 !include (functions.pp)
 
-!ifdef (starship) (eval $(starship init bash)) (# starship init omitted)
+!ifdef (starship) (!sh (starship init bash)) (# starship init omitted)
 
 return 0
